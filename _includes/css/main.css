@@ -149,7 +149,7 @@ header .intro-text .skills {
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         /* Trying out reducing this font sized for site from 1.5em*/
-        font-size: 1em;
+        font-size: 2em;
     }
     
     /* Adding sizing for logo on full-size screen */
