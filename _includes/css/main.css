@@ -148,8 +148,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        /* Trying out reducing this font sized for site from 1.5em*/
-        font-size: 2em;
+        /* This is the full-screen site title font size */
+        font-size: 1.5em;
     }
     
     /* Adding sizing for logo on full-size screen */
@@ -178,8 +178,15 @@ header .intro-text .skills {
     font-size: 1em;
 }
       
+ /* Dealing with site logo for mobile */   
+.navbar-brand-logo {
+    display: inline-block;
+    vertical-align: middle;
+    height: 30px; 
+    margin-right: 5px; 
+}
     
-.navbar .navbar-nav li a:focus {
+    .navbar .navbar-nav li a:focus {
     outline: 0;
 }
 
