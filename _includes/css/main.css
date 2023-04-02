@@ -149,7 +149,7 @@ margin-right: 10px;
 
 @media(min-width:768px) {
     .navbar-fixed-top {
-        padding: 25px 0;
+        padding: 10px 0 30px 0;
         -webkit-transition: padding .3s;
         -moz-transition: padding .3s;
         transition: padding .3s;
@@ -170,6 +170,7 @@ margin-right: 10px;
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         /* This is the full-screen site title font size */
         font-size: 1.5em;
+        padding: 5px 0 30px 0;
     }
     
 
