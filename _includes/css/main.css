@@ -9,9 +9,10 @@ body {
 }
 
 p {
-    font-size: 20px;
+    font-size: 10px;
     /* added to theme */
     text-align: justify;
+    margin-bottom: 20px;
 }
 
 p.small {
