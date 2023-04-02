@@ -152,11 +152,11 @@ header .intro-text .skills {
         font-size: 1.5em;
     }
     
-    /* Adding sizing for logo on full-size screen */
+    /* Adding sizing for logo on full-size screen 
     .navbar-brand-logo {
         display: inline-block;
         vertical-align: middle;
-        height: 70px; /* adjust height as per your logo */
+        height: 70px; 
         margin-right: 10px; /* add margin between logo and text */
 }
 
