@@ -1,11 +1,11 @@
 # Site settings
-title: Freelancer
-email: your-email@domain.com
+title: Dorchester Euro Cafe
+email: dorchestereurocafe@gmail.com
 url: https://github.com/jeromelachaud/freelancer-theme
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-keywords: "your keywords, separated by commas"
+description: ""Plotting the route to rejoining the European Union through coffee, cake and conversation""
+keywords: "brexit, dorset, dorchester, EU, european, rejoin"
 skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: LastName FirstName
+meta_author: Euro Cafe Dorchester
 
 # Google webmaster tools
 google_verify:
@@ -27,12 +27,12 @@ disqus_shortname: myshortname
 color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
-  secondary: 2c3e50 #FD6E8A
-  secondary-dark: 233140 #A2122F
+  secondary: 003399 #FD6E8A
+  secondary-dark: FFCC00 #A2122F
 
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
+  copyright: Dorchester Euro Cafe
   location: Location
   social: Around the Web
   credits: Credits
@@ -40,7 +40,7 @@ footer:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: http://twitter.com/jekyllrb
+    url: http://twitter.com/EuroCafeDorch
   - title: facebook
     url:
   - title: stack-overflow
