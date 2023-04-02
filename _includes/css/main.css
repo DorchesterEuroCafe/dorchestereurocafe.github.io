@@ -187,7 +187,7 @@ section.success {
     color: #003399;     /* #fff; */
     /* adding yellow to About section
     background: #{{ site.color.primary }}; */
-    background: #FFCC00;
+    background: #ffeb99;
 }
 
 @media(max-width:767px) {
