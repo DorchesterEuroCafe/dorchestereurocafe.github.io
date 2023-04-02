@@ -184,8 +184,10 @@ section h2 {
 }
 
 section.success {
-    color: #fff;
-    background: #{{ site.color.primary }};
+    color: #003399     /* #fff; */
+    /* adding yellow to About section
+    background: #{{ site.color.primary }}; */
+    background: #FFCC00;
 }
 
 @media(max-width:767px) {
