@@ -148,7 +148,8 @@ header .intro-text .skills {
     }
 
     .navbar-fixed-top.navbar-shrink .navbar-brand {
-        font-size: 1.5em;
+        /* Trying out reducing this font sized for site from 1.5em*/
+        font-size: 1em;
     }
     
     /* Adding sizing for logo on full-size screen */
@@ -172,9 +173,8 @@ header .intro-text .skills {
 .navbar .navbar-nav {
     letter-spacing: 1px;
 }
-
-/* Adding reduced size for site title for mobile */
-.navbar-fixed-top .navbar-brand {
+ 
+    -fixed-top .navbar-brand {
     font-size: 1em;
 }
       
