@@ -178,12 +178,12 @@ header .intro-text .skills {
     font-size: 1em;
 }
       
- /* Dealing with site logo for mobile */   
+ /* Dealing with site logo for full screen */   
 .navbar-brand-logo {
     display: inline-block;
     vertical-align: middle;
-    height: 30px; 
-    margin-right: 5px; 
+    height: 70px; 
+    margin-right: 10px; 
 }
     
     .navbar .navbar-nav li a:focus {
