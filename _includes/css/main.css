@@ -121,7 +121,11 @@ header .intro-text .skills {
         margin-right: 5px; /* add margin between logo and text */
 }
 
-
+/* removing negative margins for the header text */
+.col-12 {
+margin-left: 10px;
+margin-right: 10px;
+}
 
 @media(min-width:768px) {
     header .container {
