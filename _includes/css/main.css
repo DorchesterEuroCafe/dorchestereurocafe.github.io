@@ -155,7 +155,7 @@ header .intro-text .skills {
     .navbar-brand-logo {
         display: inline-block;
         vertical-align: middle;
-        height: 40px; /* adjust height as per your logo */
+        height: 70px; /* adjust height as per your logo */
         margin-right: 10px; /* add margin between logo and text */
 }
 
@@ -173,6 +173,12 @@ header .intro-text .skills {
     letter-spacing: 1px;
 }
 
+/* Adding reduced size for site title for mobile */
+.navbar-fixed-top .navbar-brand {
+    font-size: 1em;
+}
+      
+    
 .navbar .navbar-nav li a:focus {
     outline: 0;
 }
