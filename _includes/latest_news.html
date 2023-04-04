@@ -9,6 +9,8 @@
     </a></h2>
 
     <p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
+    <p>{{ latest_post.location }}</p>
+    <p>{{ latest_post.time }}</p>
 <a href="#portfolioModal-{{ latest_post.modal-id }}" class="btn btn-primary" data-toggle="modal">Read More</a>
     
 </container>    
