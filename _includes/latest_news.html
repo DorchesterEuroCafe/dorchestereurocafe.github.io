@@ -7,10 +7,10 @@
     <a href="#portfolioModal-{{ latest_post.modal-id }}" class="portfolio-link" data-toggle="modal">
         {{ latest_post.title }}
     </a></h2>
-
-    <p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
-    <p>{{ latest_post.location }}</p>
-    <p>{{ latest_post.time }}</p>
+<p> </p>
+    <p>Date: {{ latest_post.date | date: "%B %d, %Y" }}</p>
+    <p>Location: {{ latest_post.location }}</p>
+    <p>Time: {{ latest_post.time }}</p>
 <a href="#portfolioModal-{{ latest_post.modal-id }}" class="btn btn-primary" data-toggle="modal">Read More</a>
     
 </container>    
