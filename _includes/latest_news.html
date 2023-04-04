@@ -1,10 +1,27 @@
 <section id="next_meeting">
     <div class="container">
-{% assign latest_post = site.posts | first %}
 
-<h2>Next Meeting: <a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h2>
-<p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
-<a href="{{ latest_post.url }}" class="btn btn-primary">Read More</a>
+        <div class="latest-news">
+  <h2 class="leadin-title">Next meeting</h2>
+  <h3 class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+  <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+  <a href="#myModal" role="button" class="btn btn-primary" data-toggle="modal">Read more</a>
+</div>
 
+<!-- Modal -->
+<div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">{{ post.title }}</h4>
+        <p class="post-date">{{ post.date | date: "%B %d, %Y" }}</p>
+      </div>
+      <div class="modal-body">
+        {{ post.content }}
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
  </div>
 </section>
