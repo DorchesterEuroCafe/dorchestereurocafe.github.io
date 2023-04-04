@@ -77,6 +77,16 @@ hr.star-primary {
     /* border-color: #{{ site.color.secondary }}; */
 }
 
+hr.star-primary-header {
+    border-color: #003399;
+
+}
+
+hr.star-primary-header:after {
+
+    background-color: #003399;
+}
+
 hr.star-primary:after {
     color: #{{ site.color.secondary }};
     background-color: #fff;
