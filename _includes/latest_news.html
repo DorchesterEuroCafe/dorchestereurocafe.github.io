@@ -1,0 +1,4 @@
+{% assign latest_post = site.posts | first %}
+
+<h2>Next Meeting: {{ latest_post.title }}</h2>
+<p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
