@@ -83,8 +83,8 @@ hr.star-primary-header {
 }
 
 hr.star-primary-header:after {
-
-    background-color: #003399;
+    color: #003399;
+    background-color: #b3ccff;
 }
 
 hr.star-primary:after {
