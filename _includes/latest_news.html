@@ -3,9 +3,13 @@
 <div class="container">  
 {% assign latest_post = site.posts | first %}
 
-<h2>Next Meeting: <a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h2>
-<p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
-<a href="{{ latest_post.url }}" class="btn btn-primary">Read More</a>
+<h2>Next Meeting: 
+    <a href="#portfolioModal-{{ post.modal-id }}" class="portfolio-link" data-toggle="modal">
+        {{ latest_post.title }}
+    </a></h2>
+
+    <p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
+<a href="#portfolioModal-{{ post.modal-id }}" class="btn btn-primary">Read More</a>
     
 </container>    
 </section>
