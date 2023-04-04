@@ -7,24 +7,10 @@
       </div>
     <h3>Euro Cafe meetings coming up</h3>  
 
-    {% assign today = site.time | date: "%Y-%m-%d" %}
-{% assign meetings = site.data.meetings %}
-{% assign next_meeting = nil %}
+{% assign meetings = site.data.meetings | where_exp: "item", "item.date >= site.time" %}
+{% assign next_meeting = meetings | sort: 'date' | first %}
 
-{% for meeting in meetings %}
-  {% if meeting.date >= today %}
-    {% assign next_meeting = meeting %}
-    {% break %}
-  {% endif %}
-{% endfor %}
-
-{% if next_meeting %}
-  <h2>Next Meeting</h2>
-  <h3>{{ next_meeting.date | date: "%B %d, %Y" }}</h3>
-  <p>{{ next_meeting.location }}</p>
-  <p>{{ next_meeting.time }}</p>
-  <p>{{ next_meeting.details }}</p>
-{% endif %}
+{{ next_meeting.date | date: "%B %d, %Y" }}
     
   </div>  
 </section>
