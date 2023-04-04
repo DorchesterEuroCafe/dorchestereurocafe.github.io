@@ -1,11 +1,11 @@
 <!-- Next Meeting section -->
 <section id="next_meeting">
-  
+<div class="container">  
 {% assign latest_post = site.posts | first %}
 
 <h2>Next Meeting: <a href="{{ latest_post.url }}">{{ latest_post.title }}</a></h2>
 <p>{{ latest_post.date | date: "%B %d, %Y" }}</p>
 <a href="{{ latest_post.url }}" class="btn btn-primary">Read More</a>
     
-    
+</container>    
 </section>
