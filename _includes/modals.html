@@ -20,14 +20,14 @@
             <p>{{ post.description }}</p>
             {% endif %}
             <ul class="list-inline item-details">
-              {% if post.location %}
-              <li>Location:
-                <strong>{{ post.location }}</strong>
-              </li>
-              {% endif %}
               {% if post.date %}
               <li>Date:
                 <strong>{{ post.date | date: "%B %d, %Y"  }}</strong>
+              </li>
+              {% endif %}
+              {% if post.location %}
+              <li>Location:
+                <strong>{{ post.location }}</strong>
               </li>
               {% endif %}
               {% if post.time %}
