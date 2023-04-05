@@ -27,7 +27,7 @@
               {% endif %}
               {% if post.date %}
               <li>Date:
-                <strong>{{ post.date }}</strong>
+                <strong>{{ post.date | date: "%B %d, %Y"  }}</strong>
               </li>
               {% endif %}
               {% if post.time %}
