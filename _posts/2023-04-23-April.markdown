@@ -6,5 +6,7 @@ link: April
 date: 2023-04-23
 location: Vivo Lounge, Brewery Square, Dorchester
 time: 3pm to 5pm
-description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge in Brewery Square, Dorchester. Aim for "The Snug" left of the bar and look for the EU flags flying. We'll be talking about what action we'd like to take as a group
+description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge in Brewery Square, Dorchester. Aim for "The Snug" left of the bar and look for the EU flags flying. 
+
+We'll be talking about what action we'd like to take as a group
 ---
