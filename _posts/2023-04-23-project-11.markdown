@@ -2,6 +2,7 @@
 layout: default
 title: April's Euro Cafe
 modal-id: 11
+link: April
 date: 2023-04-23
 location: Vivo Lounge, Brewery Square, Dorchester
 time: 3pm to 5pm
