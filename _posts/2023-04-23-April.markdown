@@ -6,5 +6,5 @@ link: April
 date: 2023-04-23
 location: Vivo Lounge, Brewery Square, Dorchester
 time: 3pm to 5pm
-description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge in Brewery Square, Dorchester, on Saturday 22nd April, 3–5pm. All welcome! See our recent write-up in the Dorset Echo.
+description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge in Brewery Square, Dorchester, on Saturday 22nd April, 3–5pm. All welcome!
 ---
