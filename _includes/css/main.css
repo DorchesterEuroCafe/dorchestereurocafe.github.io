@@ -145,7 +145,7 @@ footer .footer-above {
     background-color: #003399;
 }	
 
-img .footer-logo {
+.footer-above .footer-col .footer-logo {
 	display: inline-block;
 	height: 100px;
 	padding-bottom: 15px;
