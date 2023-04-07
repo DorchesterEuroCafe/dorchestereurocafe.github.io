@@ -145,6 +145,7 @@ footer .footer-above {
 }	
 
 footer-logo {
+	display: inline-block;
 	height: 100px;
 	padding: 15px;
 
