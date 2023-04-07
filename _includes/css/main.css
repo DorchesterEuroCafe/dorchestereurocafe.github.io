@@ -144,6 +144,10 @@ footer .footer-above {
     background-color: #003399;
 }	
 
+footer-logo {
+	height: 100px;
+	padding: 15px;
+
 @media(min-width:768px) {
     header .container {
         padding-top: 200px;
