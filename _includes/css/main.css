@@ -354,6 +354,11 @@ section.success {
     background: #fff;
 }
 
+.form-control::placeholder {
+	color: #003399;
+	opacity: .6;
+}
+	
 .floating-label-form-group {
     position: relative;
     margin-bottom: 0;
