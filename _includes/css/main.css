@@ -169,6 +169,10 @@ footer .footer-above {
     p {
         font-size: 20px;
     }
+	
+	.footer-above .footer-col .footer-logo {
+		height: 150px;
+	}
 }
 
 @media(min-width:768px) {
