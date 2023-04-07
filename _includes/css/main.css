@@ -231,20 +231,21 @@ footer .footer-above {
     .navbar .navbar-nav li a:focus {
     outline: 0;
 }
-    
+ 
+/*	
 .navbar-default .navbar-nav > .active > a, 
     .navbar-default .navbar-nav > .active > a:hover, 
     .navbar-default .navbar-nav > .active > a:focus {
 	color: #003399;
 	background-color: #FFCC00;
 }    
-/*	
+*/	
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	color: #003399;
 	background-color: #FFCC00;
-}	*/
+}	
 
 .navbar-default,
 .navbar-inverse {
