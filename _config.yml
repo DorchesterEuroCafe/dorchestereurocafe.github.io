@@ -1,71 +1,55 @@
-# Site settings
-title: "Dorchester Euro Café"
-email: "dorchestereurocafe@gmail.com"
-url: "https://dorchestereurocafe.github.io"
-description: "Plotting the route to rejoining the European Union through coffee, cake and conversation"
-keywords: "brexit, dorset, dorchester, EU, european, rejoin"
-skills: "Web Developer - Graphic Artist - User Experience Designer"
-meta_author: "Euro Cafe Dorchester"
-
-# Google webmaster tools
-google_verify:
-
-# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:
-
-# Contact form:
-# - static : pass through formspree.io to validate email sending
-# - disqus : replace contact form by disqus thread
-# - comment the line below if you want to stick with the default PHP contact form
+---
+title: Dorchester Euro Café
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    permalink: ''
+email: dorchestereurocafe@gmail.com
+url: https://dorchestereurocafe.github.io
+description: Plotting the route to rejoining the European Union through coffee, cake
+  and conversation
+keywords: brexit, dorset, dorchester, EU, european, rejoin
+skills: Web Developer - Graphic Artist - User Experience Designer
+meta_author: Euro Cafe Dorchester
+google_verify: 
+bing_verify: 
 contact: static
-
-# If you use disqus you need disqus shortname
-# https://help.disqus.com/customer/portal/articles/466208
 disqus_shortname: myshortname
-
-# Color settings (hex-codes without the leading hash-tag)
 color:
-  primary: 18bc9c #80B3FF b3ccff
-  primary-rgb: "179, 204, 255" #"128,179,255"
-  secondary: 003399 #FD6E8A
-  secondary-dark: FFCC00 #A2122F
-
-# Footer settings
+  primary: 18bc9c
+  primary-rgb: 179, 204, 255
+  secondary: '003399'
+  secondary-dark: FFCC00
 footer:
   copyright: Dorchester Euro Café
   location: Location
   social: Around the Web
   credits: Credits
-
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/EuroCafeDorch
-  - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
-
-# Postal address (add as many lines as necessary)
+- title: twitter
+  url: http://twitter.com/EuroCafeDorch
+- title: facebook
+  url: 
+- title: stack-overflow
+  url: http://stackoverflow.com/questions/tagged/jekyll
+- title: bitbucket
+  url: http://bitbucket.org/jekyll
+- title: github
+  url: http://github.com/jekyll
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
-
-# Credits content
-credits: 'Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
-
-# Build settings
+- line: 3481 Melrose Place
+- line: Beverly Hills, CA 90210
+credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start
+  Bootstrap</a>.
 markdown: kramdown
 permalink: pretty
-
-#for posts
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      permalink: ""
