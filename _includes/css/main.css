@@ -140,6 +140,11 @@ margin-left: 10px;
 margin-right: 10px;
 }
 
+/* adding space under email address */
+.row row bottom {
+	padding-bottom:30px;
+}
+
 footer .footer-above {
     padding-top: 50px;
     background-color: #003399;
