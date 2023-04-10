@@ -7,8 +7,6 @@ time: 3pm to 5pm
 description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge
   in Brewery Square, Dorchester. Aim for "The Snug" left of the bar and look for the
   EU flags.
-  
-  Adding a line break to test
 layout: default
 ---
 
