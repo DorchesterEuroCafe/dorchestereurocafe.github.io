@@ -13,7 +13,7 @@ defaults:
     path: _posts/*
     type: posts
   values:
-    permalink: ''
+    permalink: '/:title.html'
 email: rachel@dorchestereurocafe.org.uk
 url: https://www.dorchestereurocafe.org.uk
 description: Plotting the route to rejoining the European Union through coffee, cake
