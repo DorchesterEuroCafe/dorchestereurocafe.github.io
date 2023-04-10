@@ -10,8 +10,10 @@ collections:
     output: true
 defaults:
 - scope:
-    path: ''
+    path: '_posts/*'
     type: posts
+    layout: "default"
+    frontmatter: frontmatter_template.yml
   values:
     permalink: ''
 email: rachel@dorchestereurocafe.org.uk
