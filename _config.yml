@@ -40,15 +40,15 @@ social:
   url: http://twitter.com/EuroCafeDorch
 - title: facebook
   url: 
-- title: stack-overflow
-  url: http://stackoverflow.com/questions/tagged/jekyll
-- title: bitbucket
-  url: http://bitbucket.org/jekyll
-- title: github
-  url: http://github.com/jekyll
+- title: 
+  url: 
+- title: 
+  url: 
+- title: 
+  url: 
 address:
-- line: 3481 Melrose Place
-- line: Beverly Hills, CA 90210
+- line: 
+- line: 
 credits: Freelancer is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start
   Bootstrap</a>.
 markdown: kramdown
