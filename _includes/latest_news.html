@@ -1,24 +1,24 @@
 <!-- Next Meeting section -->
 <section id="next_meeting">
-    <div class="container">  
+    <div class="container">
 	<div class="row">
      	    <div class="col-lg-12 text-center">
             	<h2>Meetings</h2>
-       	    	<hr class="star-primary"> 
+       	    	<hr class="star-primary">
      	    </div>
    	</div>
-    
+
     	{% assign latest_post = site.posts | first %}
   	<div class="col-lg-8 col-lg-offset-2">
-		<h3>Next Meeting: 
+		<h3>Next Meeting:
   		<a href="#portfolioModal-{{ latest_post.modal-id }}" class="portfolio-link" data-toggle="modal">
         	{{ latest_post.title }}
     		</a></h3>
     		<p> </p>
-    		<p><strong>Date:</strong> {{ latest_post.date | date: "%d %B %Y" }}</p>
+    		<p><strong>Date:</strong> {{ latest_post.date | date: "%A %d %B %Y" }}</p>
     		<p><strong>Location:</strong> {{ latest_post.location }}</p>
     		<p><strong>Time:</strong> {{ latest_post.time }}</p>
 		<a href="#portfolioModal-{{ latest_post.modal-id }}" class="btn btn-primary" data-toggle="modal">Read More</a>
    	</div>
-    </div>    
+    </div>
 </section>
