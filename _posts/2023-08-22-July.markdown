@@ -2,8 +2,8 @@
 title: June's Euro Cafe
 date: 2023-07-22 00:00:00 Z
 modal-id: April
-location: Burough Gardens, Cornwall Road, Dorchester DT1 1RG
+location: Vivo Lounge, Brewery Square, Dorchester DT1 1QR
 time: 12pm to 2pm
-description: Bring yourself, a friend, something to sit on and something to eat or drink to this summer social event
+description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge in Brewery Square, Dorchester. 
 layout: default
 ---
