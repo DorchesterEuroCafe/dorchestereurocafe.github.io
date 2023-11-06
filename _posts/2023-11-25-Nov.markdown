@@ -1,6 +1,6 @@
 ---
 title: November's Euro Cafe
-date: 2023-10-28 00:00:00 Z
+date: 2023-11-25 00:00:00 Z
 modal-id: April
 location: Vivo Lounge, Brewery Square, Dorchester DT1 1QR
 time: 3pm to 5pm
