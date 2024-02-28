@@ -1,0 +1,11 @@
+---
+title: April's Euro Cafe
+date: 2024-04-27 00:00:00 Z
+modal-id: April
+location: Vivo Lounge, Brewery Square, Dorchester DT1 1QR
+time: 3pm to 5pm
+description: Join Dorset for Europe members in the heart of Dorset at Vivo Lounge
+  in Brewery Square, Dorchester. Aim for "The Snug" left of the bar and look for the
+  EU flags.
+layout: default
+---
