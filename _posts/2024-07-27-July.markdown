@@ -1,6 +1,6 @@
 ---
 title: To be confirmed
-date: To be confirmed
+date: 2024-07-27 00:00:00 Z
 modal-id: April
 location: Vivo Lounge, Brewery Square, Dorchester DT1 1QR
 time: To be confirmed
